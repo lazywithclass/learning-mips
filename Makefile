@@ -10,5 +10,5 @@ connect:
 	docker run -it ${BUILD_NAME} /bin/bash
 
 mars:
-	docker run -v /home/lazywithclass/workspace/mars:/workspace -e DISPLAY --name mars --rm -it ${BUILD_NAME} java -jar /workspace/Mars4_5.jar
+	docker run -v /home/lazywithclass/workspace/learning-mips:/workspace -e DISPLAY --name mars --rm -it ${BUILD_NAME} java -jar /workspace/Mars4_5.jar
 
