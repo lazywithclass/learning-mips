@@ -27,6 +27,6 @@ main:
 	lw $t0, 0($t1)	 	 # b[i]
 	lw $t1, 0($s2)		 # c
 	add $t0, $t0, $t1
-	addi $t0, $t0, 5		 # 5 + b[i] + c
+	addi $t0, $t0, 5         # 5 + b[i] + c
 	sw $t0, 396($s0)	 # assignment to a[99]
 	
